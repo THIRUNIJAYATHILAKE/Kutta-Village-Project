@@ -33,4 +33,4 @@ The **Pet Care System** is a comprehensive pet care management platform aimed at
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/THIRUNIJAYATHILAKE/Kutta-Village-Project.git
+   git clone https://github.com/THIRUNIJAYATHILAKE/Pet-Care-System.git
