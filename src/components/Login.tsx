@@ -9,15 +9,26 @@ export default function Login() {
     password:'',
   });
 
+  function handleEmail(email : string){
+      const existingEmail ='thiruni@gmail.com'
+      const [inputEmail,setInputEmail] = useState();
+      
+      console.log(email);
+       
+      if (inputEmail === existingEmail) {
+      console.log('Emails match!');
+    } else {
+      console.log('Emails do not match.');
+    }
+    }
+
    const handleLogin = () => {
     console.log('Login button pressed');
     console.log('Email:', form.email);
     console.log('Password:', form.password);
-    // Add your login logic here (API calls, validation, etc.)
 
-    function handleEmail (email){
-      console.log(email.nativeEvent.text);
-    }
+    
+    
   };
 
 
